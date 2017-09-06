@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "mocha": true,
+    "browser": true /* this is for avoid browser related syntax errors*/
+
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }]
+  }
+}
